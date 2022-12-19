@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int* p;
+int i = 0;
+p = new int[5];
+printf("\n\n");
+for(i = 0; i < 5; i++)
+{
+printf("Enter array elements: ");
+scanf("%d",&p[i]);
+}
+printf("\n\n");
+for(i = 0; i < 5; i++)
+{
+printf("Array elements: ");
+printf("%d\n",p[i]);
+}
+}
